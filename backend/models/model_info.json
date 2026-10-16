@@ -1,0 +1,32 @@
+{
+  "nama": "MobileNetV2 Penyakit Daun Padi",
+  "arsitektur": "MobileNetV2 + Transfer Learning (ImageNet)",
+  "versi": "1.0",
+  "file": "mobilenetv2_padi.keras",
+  "input_size": [
+    224,
+    224
+  ],
+  "class_names": [
+    "Bacterialblight",
+    "Blast",
+    "Brownspot",
+    "Tungro"
+  ],
+  "display_names": [
+    "Bacterial Blight",
+    "Blast",
+    "Brown Spot",
+    "Tungro"
+  ],
+  "akurasi": 0.9661,
+  "presisi": 0.9746,
+  "recall": 0.9731,
+  "f1_score": 0.9733,
+  "tanggal_pelatihan": "2026-10-16",
+  "konfigurasi": {
+    "optimizer": "adam",
+    "learning_rate": 0.001,
+    "dense_units": 64
+  }
+}
